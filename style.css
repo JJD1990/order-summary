@@ -1,0 +1,17 @@
+body {
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.card-text{
+    font-weight: lighter;
+}
+
+/* img {
+    border-radius: 20px;
+}
+
+.card {
+    border-radius: 20px;
+} */
