@@ -1,17 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=RedHatDisplay:weight@400;700&display=swap');
+
+
 body {
-justify-content: center;
-align-items: center;
-text-align: center;
+    background-image: url("https://i.imgur.com/MRfoaO2.png");
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+h4 {
+    font-weight: bolder;
+}
+h6 {
+    font-weight: bolder;
+}
+
+.background-img {
+    position: fixed;
+    margin: 0;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.card {
+    position: relative;
+    top: 50px;
+    width: 400px; 
+    height: 600px;
+    margin: 0;
+    border: none;
+    border-radius: 20px;
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
 }
 
 .card-text{
     font-weight: lighter;
 }
 
-/* img {
-    border-radius: 20px;
+#desc {
+    padding: 0;
+    margin: 0;
 }
 
-.card {
+#image {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.list-group-item {
+    background-color: rgb(241, 245, 247);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    border: none;
     border-radius: 20px;
-} */
+    justify-content: space-evenly;
+    width: 350px;
+}
+
+#annual-plan {
+    top: 50px;
+}
+
+
+li {
+    list-style: none;
+}
+
+.btn {
+    text-align: center;
+    align-items: center;
+}
+
+.proceed {
+    display: relative;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(27, 27, 109);
+    color: #fff;
+    background-color: rgb(26, 37, 185);
+    width: 350px;
+    height: 40px;
+    left: 100px;
+}
+
+.proceed:active{
+    color: rgb(26, 37, 185);
+    background-color: #fff;
+}
+
+.cancel {
+    border: none;
+    background-color: transparent;
+    color: grey;
+    height: 40px;
+}
+
+.cancel:hover{
+    color: black;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+}
+
+
