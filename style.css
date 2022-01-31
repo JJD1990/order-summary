@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=RedHatDisplay:weight@400;700&display=swap');
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
 
 
 body {
@@ -16,10 +16,10 @@ body {
 }
 
 h4 {
-    font-weight: bolder;
+    font-weight: 900;
 }
 h6 {
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .background-img {
@@ -44,7 +44,10 @@ h6 {
 }
 
 .card-text{
-    font-weight: lighter;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
 }
 
 #desc {
@@ -71,15 +74,14 @@ h6 {
     align-items: center;
     position: relative;
     border: none;
-    border-radius: 20px;
-    justify-content: space-evenly;
-    width: 350px;
+    justify-content: space-around;
 }
 
-#annual-plan {
-    top: 50px;
+.annual-plan {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
 }
-
 
 li {
     list-style: none;
@@ -101,6 +103,7 @@ li {
     width: 350px;
     height: 40px;
     left: 100px;
+    margin-top: 15px;
 }
 
 .proceed:active{
@@ -113,6 +116,7 @@ li {
     background-color: transparent;
     color: grey;
     height: 40px;
+    margin: 15px;
 }
 
 .cancel:hover{
@@ -122,6 +126,11 @@ li {
 .attribution {
     position: fixed;
     bottom: 0;
-}
+    font-size: 11px;
+    text-align: center;
+  }
 
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 
