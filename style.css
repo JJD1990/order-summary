@@ -124,6 +124,7 @@ li {
 }
 
 .attribution {
+    background:transparent;
     position: fixed;
     bottom: 0;
     font-size: 11px;
